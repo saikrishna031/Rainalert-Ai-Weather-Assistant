@@ -1,0 +1,12 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
+python-dotenv==1.1.0
+requests==2.32.3
+huggingface_hub==0.30.2
+langchain-core==0.3.56
+langchain-huggingface==0.1.2
+langchain-chroma==0.2.3
+chromadb==0.6.3
+sentence-transformers==4.1.0
+torch==2.8.0
+onnxruntime==1.20.1

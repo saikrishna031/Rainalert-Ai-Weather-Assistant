@@ -1,0 +1,20 @@
+RainAlert AI Weather Assistant — Redesigned Source
+
+This ZIP is based on the provided RainAlert AI Weather Assistant v4 project. It replaces only:
+- project/src/main.jsx
+- project/src/index.css
+
+The backend and configuration files are preserved from v4.
+
+SETUP (Windows / VS Code)
+1. Extract this ZIP to a NEW folder.
+2. Open the extracted project folder (the folder containing package.json) in VS Code.
+3. In the terminal run: npm.cmd install
+4. Start the frontend: npm.cmd run dev
+5. In a second terminal, start the backend: python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
+6. Open the Vite URL shown in the frontend terminal.
+
+IMPORTANT
+- Keep your existing .env values private; copy any required local environment settings into the extracted project if needed.
+- Do not copy this project's src files into your existing folder until you have a backup.
+- This package has not been verified with a full npm build in this environment. If the page is blank, open browser DevTools (F12) and check the Console, or send the terminal error.
