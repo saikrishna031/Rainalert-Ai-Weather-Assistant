@@ -143,6 +143,4 @@ No calendar permissions are requested in this version. The assistant already car
 - Browser notifications work while the application is open; production background push needs additional infrastructure.
 - Follow official government/emergency-service warnings for real emergencies.
 
-## Resume-ready description
 
-**RainAlert AI Weather Assistant** — Built a React/Tailwind AI weather agent with FastAPI, natural-language intent and location resolution, conversational context, live hourly/7-day forecasts, RAG-grounded severe-weather safety guidance using Chroma and Hugging Face embeddings, proactive weather alerts, voice interaction, Hyderabad neighborhood comparison, map-based emergency-service discovery, caching, and responsive light/dark UI.
